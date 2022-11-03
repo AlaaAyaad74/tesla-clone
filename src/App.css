@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Open Sans", sans-serif;
 }
 @keyframes animationArrow {
   0%,
@@ -16,9 +17,9 @@
     transform: translateY(3px);
   }
 }
-ul{
+ul {
   list-style: none;
 }
-a{
+a {
   text-decoration: none;
 }
