@@ -21,21 +21,6 @@ function Header() {
               <a href="#">{item}</a>
             </li>
           ))}
-          {/* <li>
-            <a href="#">Model 3</a>
-          </li>
-          <li>
-            <a href="#">Model Y</a>
-          </li>
-          <li>
-            <a href="#">Model X</a>
-          </li>
-          <li>
-            <a href="#">Soolar Roof</a>
-          </li>
-          <li>
-            <a href="#">Soolar Panel</a>
-          </li> */}
         </ul>
       </div>
       <div className="options">
@@ -180,7 +165,7 @@ const Burgernav = styled.div`
   align-items: space-between;
   gap: 0.5em;
   transition: 1s ease;
-  //overflow-y:scroll ;
+  overflow-y: scroll;
   li {
     text-align: start;
     list-style: none;
